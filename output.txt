@@ -1,0 +1,10 @@
+التطبيق يعمل على المنفذ 8000
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Users' AND TABLE_SCHEMA = 'newdb_api'
+Executing (default): SHOW INDEX FROM `Users` FROM `newdb_api`
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Completed_offers' AND TABLE_SCHEMA = 'newdb_api'
+Executing (default): SHOW INDEX FROM `Completed_offers` FROM `newdb_api`
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cpanetworks' AND TABLE_SCHEMA = 'newdb_api'
+Executing (default): SHOW INDEX FROM `cpanetworks` FROM `newdb_api`
+Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tokens' AND TABLE_SCHEMA = 'newdb_api'
+Executing (default): SHOW INDEX FROM `tokens` FROM `newdb_api`
+Server Is Running On Port [33m3000[39m
